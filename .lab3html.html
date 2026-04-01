@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>个人简历表格</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", sans-serif;
+        }
+        body {
+            padding: 30px;
+            background-color: #f5f5f5;
+        }
+        .resume {
+            width: 900px;
+            margin: 0 auto;
+            border-collapse: collapse;
+            background: #fff;
+        }
+        caption {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .resume td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        .title-row {
+            background-color: #eaf5ff;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        .self-eval {
+            text-align: left;
+            line-height: 1.6;
+            padding: 12px;
+        }
+        .photo-box img {
+            width: 140px;
+            height: 170px;
+            object-fit: cover;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<table class="resume">
+    <caption>个人简历</caption>
+    <tr>
+        <td>姓名</td>
+        <td>陈家民</td>
+        <td>性别</td>
+        <td>男</td>
+        <td>年龄</td>
+        <td>21</td>
+        <td>籍贯</td>
+        <td>汉</td>
+        <td rowspan="4" class="photo-box">
+            <!-- 这里直接放了一张在线示例照片，打开就能显示 -->
+            <img src="https://picsum.photos/140/170" alt="个人照片">
+        </td>
+    </tr>
+
+    <tr class="title-row">
+        <td colspan="8">联系方式</td>
+    </tr>
+
+    <tr>
+        <td>联系电话</td>
+        <td>125210554</td>
+        <td>电子邮箱</td>
+        <td>1473771281@QQ.com</td>
+        <td>毕业院校</td>
+        <td>烟台理工学院</td>com
+        <td>专业</td>
+        <td>计算机科学与技术</td>
+    </tr>
+
+    <tr class="title-row">
+        <td colspan="8">🎯 求职信息</td>
+    </tr>
+
+    <tr>
+        <td>学历</td>
+        <td>本科</td>
+        <td>健康状况</td>
+        <td>健康</td>
+        <td>婚姻状况</td>
+        <td>未婚</td>
+        <td>求职意向</td>
+        <td>022</td>
+        <td>258</td>
+    </tr>
+
+    <tr class="title-row">
+        <td colspan="9">📚 技能与特长</td>
+    </tr>
+
+    <tr>
+        <td>技能证书</td>
+        <td colspan="4">01124</td>
+        <td>个人特长与爱好</td>
+        <td colspan="3">打代码</td>
+    </tr>
+
+    <tr>
+        <td>自我评价</td>
+        <td colspan="8" class="self-eval">
+            本人性格积极乐观，待人真诚友善，具备较强的责任心和团队协作意识，能够快速适应新环境并高效完成各项任务。在校期间认真学习专业知识，打下了较为扎实的理论基础，同时注重实践能力的培养，具备一定的动手操作与问题解决能力。做事踏实细致，有良好的时间观念和执行力，遇到问题愿意主动思考并寻求解决方案。平时兴趣广泛，喜欢学习新技能，不断提升自我综合素养。在未来的工作中，我将以认真负责的态度对待每一项工作，虚心学习，积极进取，努力在岗位上发挥自身价值，为团队贡献力量。
+        </td>
+    </tr>
+</table>
+</body>
+</html>
